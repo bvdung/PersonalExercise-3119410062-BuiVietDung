@@ -14,6 +14,8 @@ namespace Pay1194.Service.Implementation
 
     {
         private readonly ApplicationDbContext _context;
+
+        private decimal studentLoanRepaymentAmount;
         public EmployeeService(ApplicationDbContext context)
         {
             _context = context;
@@ -68,12 +70,35 @@ namespace Pay1194.Service.Implementation
 
         public decimal StudentLoanRepaymentAmount(int id, decimal totalAmount)
         {
-            return totalAmount;
+            var emp = GetById(id);
+            if (emp.StudentLoan == StudentLoan.Yes && totalAmount > 1750 && totalAmount < 2000)
+            {
+                studentLoanRepaymentAmount = 11m;
+            }
+            else if (emp.StudentLoan == StudentLoan.Yes && totalAmount >= 2000 && totalAmount < 2250)
+            {
+                studentLoanRepaymentAmount = 26m;
+            }
+            else if (emp.StudentLoan == StudentLoan.Yes && totalAmount >= 2250 && totalAmount < 2500)
+            {
+                studentLoanRepaymentAmount = 45m;
+            }
+            else if (emp.StudentLoan == StudentLoan.Yes && totalAmount >= 2500)
+            {
+                studentLoanRepaymentAmount = 73m;
+            }
+            else
+            {
+                studentLoanRepaymentAmount = 0m;
+            }
+            return studentLoanRepaymentAmount;
         }
 
         public decimal UnionFee(int id)
         {
-            return 1.5m;
+            var Emp = GetById(id);
+            var FeeUnion = Emp.UnionMember == UnionMember.Yes ? 10m : 0m;
+            return FeeUnion;
         }
 
        
