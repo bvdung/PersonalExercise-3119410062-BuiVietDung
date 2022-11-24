@@ -67,7 +67,7 @@ namespace Pay1194.Controllers
         {
             if (ModelState.IsValid)
             {
-                var employee = new Employee
+                var employee = new Pay1194.Entity.Employee
                 {
                     Id = model.Id,
                     FirstName = model.FirstName,

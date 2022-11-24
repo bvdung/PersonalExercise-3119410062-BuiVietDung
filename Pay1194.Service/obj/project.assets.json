@@ -7872,23 +7872,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\MaiVanPhuongVu\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\ADMIN\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MaiVanPhuongVu\\Desktop\\project\\Pay1194\\Pay1194.Service\\Pay1194.Service.csproj",
+      "projectUniqueName": "C:\\Users\\ADMIN\\source\\repos\\pay1194\\Pay1194.Service\\Pay1194.Service.csproj",
       "projectName": "Pay1194.Service",
-      "projectPath": "C:\\Users\\MaiVanPhuongVu\\Desktop\\project\\Pay1194\\Pay1194.Service\\Pay1194.Service.csproj",
-      "packagesPath": "C:\\Users\\MaiVanPhuongVu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MaiVanPhuongVu\\Desktop\\project\\Pay1194\\Pay1194.Service\\obj\\",
+      "projectPath": "C:\\Users\\ADMIN\\source\\repos\\pay1194\\Pay1194.Service\\Pay1194.Service.csproj",
+      "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ADMIN\\Source\\Repos\\pay1194\\Pay1194.Service\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\MaiVanPhuongVu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7902,11 +7898,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\MaiVanPhuongVu\\Desktop\\project\\Pay1194\\Pay1194.Entity\\Pay1194.Entity.csproj": {
-              "projectPath": "C:\\Users\\MaiVanPhuongVu\\Desktop\\project\\Pay1194\\Pay1194.Entity\\Pay1194.Entity.csproj"
+            "C:\\Users\\ADMIN\\source\\repos\\pay1194\\Pay1194.Entity\\Pay1194.Entity.csproj": {
+              "projectPath": "C:\\Users\\ADMIN\\source\\repos\\pay1194\\Pay1194.Entity\\Pay1194.Entity.csproj"
             },
-            "C:\\Users\\MaiVanPhuongVu\\Desktop\\project\\Pay1194\\Pay1194.Persistence\\Pay1194.Persistence.csproj": {
-              "projectPath": "C:\\Users\\MaiVanPhuongVu\\Desktop\\project\\Pay1194\\Pay1194.Persistence\\Pay1194.Persistence.csproj"
+            "C:\\Users\\ADMIN\\source\\repos\\pay1194\\Pay1194.Persistence\\Pay1194.Persistence.csproj": {
+              "projectPath": "C:\\Users\\ADMIN\\source\\repos\\pay1194\\Pay1194.Persistence\\Pay1194.Persistence.csproj"
             }
           }
         }
@@ -7946,7 +7942,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

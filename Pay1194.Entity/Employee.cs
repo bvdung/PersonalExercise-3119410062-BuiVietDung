@@ -33,10 +33,11 @@ namespace Pay1194.Entity
         public StudentLoan StudentLoan { get; set; }
         public UnionMember UnionMember { get; set; }
         [Required, MaxLength(50)]
-        public string City { get; set; }
-        [Required, MaxLength(200)]
         public string Address { get; set; }
         [Required, MaxLength(50)]
+        public string City { get; set; }
+        [Required, MaxLength(200)]
+       
         public string PostCode { get; set; }
 
         public ICollection<PaymentRecord> PaymentRecords { get; set; }

@@ -1,0 +1,123 @@
+﻿@model PayDetailViewModel
+
+<div class="row">
+    <div class="col-md-4">
+        <p>PAY LTD</p>
+        <p>@Model.Address</p>
+        <p>@Model.City</p>
+        <p>@Model.PostCode</p>
+    </div>
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+        <p>Pay date: @Model.DatePay</p>
+        <p>Tax code: @Model.TaxCode</p>
+        <p>Year: @Model.year</p>
+        <p>Degisnation: @Model.Degisnation</p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <p>Employee name: @Model.FullName</p>
+    </div>
+
+    <div class="col-md-4">
+    </div>
+
+    <div class="col-md-4">
+        <p>National Insurance Number: @Model.NationalInsuranceNumber</p>
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="col-md-12 table-responsive-md">
+        <table class="table table-striped table-dark">
+            <thead>
+                <tr>
+                    <th>Earnings</th>
+                    <th>Hours</th>
+
+                    <th>Rate</th>
+                    <th>Amount</th>
+                    <th>Deduction</th>
+                    <th>Amount</th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                
+                    <tr>
+                        <td>
+                            Basic:
+                        </td>
+                        <td>@Model.HoursWorked</td>
+
+                        <td>@Model.HourlyRate</td>
+                        <td>@Model.TotalEarnings</td>
+                        <td>
+                            Tax:
+                        </td>
+                        <td>@Model.Tax</td>
+                    </tr>
+
+                     <tr>
+                     <td>
+                            OverTime:
+                        </td>
+                        <td>@Model.HoursWorked</td>
+
+                        <td>@Model.HourlyRate</td>
+                        <td>@Model.TotalEarnings</td>
+                        <td>
+                            NIC:
+                        </td>
+                        <td>@Model.NIC</td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            
+                        </td>
+                        <td></td>
+
+                        <td></td>
+                        <td></td>
+                        <td>
+                            Union:
+                        </td>
+                    <td>@Model.UnionFee</td>
+                    </tr>
+
+
+                    <tr>
+                     <td>
+
+                        </td>
+                        <td></td>
+
+                        <td></td>
+                        <td></td>
+                        <td>
+                            SLC:
+                        </td>
+                        <td>@Model.SLC</td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                        </td>
+                        <td></td>
+
+                        <td></td>
+                        <td></td>
+                        <td>
+                            NET PAY:
+                        </td>
+                        <td>@Model.NetPayment</td>
+                    </tr>
+   
+            </tbody>
+        </table>
+    </div>
+</div>

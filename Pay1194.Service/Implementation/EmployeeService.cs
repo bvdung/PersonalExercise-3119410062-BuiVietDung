@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
 using Pay1194.Entity;
 using Pay1194.Persistence;
 using System;
@@ -34,6 +35,16 @@ namespace Pay1194.Service.Implementation
             return _context.Employees.ToList();
         }
 
+        public IEnumerable<SelectListItem> GetEmployeeForPayRoll()
+        {
+            var allEmployee = _context.Employees.Select(employee => new SelectListItem
+            {
+                Text = employee.FullName,
+                Value = employee.Id.ToString()
+            });
+            return allEmployee;
+        }
+
         public async Task UpdateAsync(Employee employee)
         {
             _context.Employees.Update(employee);
@@ -55,14 +66,14 @@ namespace Pay1194.Service.Implementation
         }
 
 
-        public Task StudentLoanRepaymentAmount(int id, decimal totalAmount)
+        public decimal StudentLoanRepaymentAmount(int id, decimal totalAmount)
         {
-            throw new NotImplementedException();
+            return totalAmount;
         }
 
         public decimal UnionFee(int id)
         {
-            throw new NotImplementedException();
+            return 1.5m;
         }
 
        

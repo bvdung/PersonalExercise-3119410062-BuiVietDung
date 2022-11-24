@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pay1194", "Pay1194\Pay1194.csproj", "{75DB2DF9-83D2-4BDA-8A46-1660C2CFD979}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pay1194", "Pay1194\Pay1194.csproj", "{75DB2DF9-83D2-4BDA-8A46-1660C2CFD979}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pay1194.Entity", "Pay1194.Entity\Pay1194.Entity.csproj", "{B7503558-8300-4B36-A50D-644F5F1C7829}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pay1194.Entity", "Pay1194.Entity\Pay1194.Entity.csproj", "{B7503558-8300-4B36-A50D-644F5F1C7829}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pay1194.Persistence", "Pay1194.Persistence\Pay1194.Persistence.csproj", "{A63810EB-C34F-4B40-B97E-414B312E1012}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pay1194.Persistence", "Pay1194.Persistence\Pay1194.Persistence.csproj", "{A63810EB-C34F-4B40-B97E-414B312E1012}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pay1194.Service", "Pay1194.Service\Pay1194.Service.csproj", "{7B3334B3-E790-4B11-951D-A87C03456B14}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pay1194.Service", "Pay1194.Service\Pay1194.Service.csproj", "{7B3334B3-E790-4B11-951D-A87C03456B14}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

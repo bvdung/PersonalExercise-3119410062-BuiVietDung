@@ -15,10 +15,13 @@ namespace Pay1194.Entity
         public int Id { get; set; }
         [ForeignKey("Employee")]
         public int EmployeeId { get; set; }
-        public Employee Employee { get; set; }
+       // public Employee Employee { get; set; }
         public string NiNo { get; set; }
         public DateTime DatePay { get; set; }
+       // public DateTime MonthPay { get; set; }
+
         public DateTime MonthPay { get; set; }
+
         [ForeignKey("TaxYear")]
         public int TaxYearId { get; set; }
         public TaxYear TaxYear { get; set; }

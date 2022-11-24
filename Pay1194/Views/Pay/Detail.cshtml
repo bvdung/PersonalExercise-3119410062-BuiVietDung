@@ -1,0 +1,54 @@
+﻿@model PayDetailViewModel
+
+<div class="col-md-12 grid-margin grid-margin-md-0">
+    <div class="card">
+        <div class="card-body">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item">
+                        <a asp-controller="Home" asp-action="Index">Home</a>
+                    </li>
+                    <li class="breadcrumb-item">
+                        <a asp-controller="Pay" asp-action="Index">Pay List</a>
+                    </li>
+                    <li class="breadcrumb-item active" aria-current="page">Detail Employee</li>
+                </ol>
+            </nav><br /><br />
+           
+            <div class="wrap d-flex justify-content-start justify-content-sm-center flex-wrap">
+                <img class="rounded-circle shadow-lg" style="width:300px; height:350px;" src="@Url.Content(Model.ImageUrl)" />
+                <div class="wrap align-items-center ml-5">
+                    <p class="text-success font-weight-bold" style="font-size:20px;">@Model.FullName</p>
+
+                    <p class="font-weight-bold">Detail of pay</p>
+                    <p class="font-weight-normal" style="font-size:20px;">tax year: @Model.year</p>
+                    <p class="font-weight-normal" style="font-size:20px;">tax code: @Model.TaxCode</p>
+                    <p class="font-weight-normal" style="font-size:20px;">Hours rate: @Model.HourlyRate</p>
+                    <p class="font-weight-normal" style="font-size:20px;">Hours worked: @Model.HoursWorked</p>
+                    <p class="font-weight-normal" style="font-size:20px;">Contractual Hours: @Model.ContractualHours</p>
+                    <p class="font-weight-normal" style="font-size:20px;">OvertimeHours: @Model.OvertimeHours</p>
+                    <br />
+                    
+                    
+                    <p class="font-weight-normal">OvertimeRate: @Model.OvertimeRate</p>
+                    <p class="font-weight-normal">ContractualEarnings: @Model.ContractualEarnings</p>
+                    <p class="font-weight-normal">OvertimeEarnings: @Model.OvertimeEarnings</p>
+
+                    <br />
+                
+                   
+                    <p class="font-weight-normal">Tax: @Model.Tax</p>
+                    <p class="font-weight-normal">NIC: @Model.NIC</p>
+                    <p class="font-weight-normal">SLC: @Model.SLC</p>
+                    <p class="font-weight-normal">NiNo: @Model.NiNo</p>
+                    <p class="font-weight-normal">DatePay: @Model.DatePay</p>
+                    <p class="font-weight-normal">TotalEarnings: @Model.TotalEarnings</p>
+                    <p class="font-weight-normal">UnionFee: @Model.UnionFee</p>
+                    <p class="font-weight-normal">TotalDeduction: @Model.TotalDeduction</p>
+                    <p class="font-weight-normal">NetPayment: @Model.NetPayment</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -10,3 +10,15 @@ C:\Users\MaiVanPhuongVu\Desktop\project\Pay1194\Pay1194.Entity\obj\Debug\net6.0\
 C:\Users\MaiVanPhuongVu\Desktop\project\Pay1194\Pay1194.Entity\obj\Debug\net6.0\refint\Pay1194.Entity.dll
 C:\Users\MaiVanPhuongVu\Desktop\project\Pay1194\Pay1194.Entity\obj\Debug\net6.0\Pay1194.Entity.pdb
 C:\Users\MaiVanPhuongVu\Desktop\project\Pay1194\Pay1194.Entity\obj\Debug\net6.0\ref\Pay1194.Entity.dll
+C:\Users\ADMIN\Source\Repos\pay1194\Pay1194.Entity\bin\Debug\net6.0\Pay1194.Entity.deps.json
+C:\Users\ADMIN\Source\Repos\pay1194\Pay1194.Entity\bin\Debug\net6.0\Pay1194.Entity.dll
+C:\Users\ADMIN\Source\Repos\pay1194\Pay1194.Entity\bin\Debug\net6.0\Pay1194.Entity.pdb
+C:\Users\ADMIN\Source\Repos\pay1194\Pay1194.Entity\obj\Debug\net6.0\Pay1194.Entity.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Source\Repos\pay1194\Pay1194.Entity\obj\Debug\net6.0\Pay1194.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\Source\Repos\pay1194\Pay1194.Entity\obj\Debug\net6.0\Pay1194.Entity.AssemblyInfoInputs.cache
+C:\Users\ADMIN\Source\Repos\pay1194\Pay1194.Entity\obj\Debug\net6.0\Pay1194.Entity.AssemblyInfo.cs
+C:\Users\ADMIN\Source\Repos\pay1194\Pay1194.Entity\obj\Debug\net6.0\Pay1194.Entity.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Source\Repos\pay1194\Pay1194.Entity\obj\Debug\net6.0\Pay1194.Entity.dll
+C:\Users\ADMIN\Source\Repos\pay1194\Pay1194.Entity\obj\Debug\net6.0\refint\Pay1194.Entity.dll
+C:\Users\ADMIN\Source\Repos\pay1194\Pay1194.Entity\obj\Debug\net6.0\Pay1194.Entity.pdb
+C:\Users\ADMIN\Source\Repos\pay1194\Pay1194.Entity\obj\Debug\net6.0\ref\Pay1194.Entity.dll
