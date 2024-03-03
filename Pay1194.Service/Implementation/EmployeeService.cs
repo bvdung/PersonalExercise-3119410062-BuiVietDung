@@ -101,7 +101,9 @@ namespace Pay1194.Service.Implementation
             return FeeUnion;
         }
 
-       
+        public decimal add () {
+            int a = 5;
+        }
 
         
     }
