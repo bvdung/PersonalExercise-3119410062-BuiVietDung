@@ -104,6 +104,7 @@ namespace Pay1194.Service.Implementation
         public decimal add () {
             int a = 6;
             int b = 7;
+            int d = 8;
         }
 
         
