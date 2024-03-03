@@ -101,6 +101,9 @@ namespace Pay1194.Service.Implementation
             return FeeUnion;
         }
 
+        public subtraction() {
+         int c = 5 -1;
+        }
        
 
         
